@@ -39,6 +39,10 @@ const translations: Translations = {
     quantity: "Quantity",
     remove: "Remove",
     total: "Total",
+    contactUs: "Contact Us",
+    location: "Location",
+    phone: "Phone",
+    unitedStates: "United States of America",
   },
   ar: {
     home: "الرئيسية",
@@ -70,6 +74,10 @@ const translations: Translations = {
     quantity: "الكمية",
     remove: "إزالة",
     total: "الإجمالي",
+    contactUs: "تواصل معنا",
+    location: "الموقع",
+    phone: "الهاتف",
+    unitedStates: "الولايات المتحدة الأمريكية",
   },
 };
 
