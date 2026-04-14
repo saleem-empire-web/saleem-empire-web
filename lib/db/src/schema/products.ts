@@ -15,6 +15,7 @@ export const productsTable = pgTable("products", {
   categoryId: integer("category_id").notNull().references(() => categoriesTable.id),
   featured: boolean("featured").notNull().default(false),
   inStock: boolean("in_stock").notNull().default(true),
+  quantity: integer("quantity").notNull().default(0),
   rating: numeric("rating", { precision: 3, scale: 2 }).notNull().default("4.00"),
   reviewCount: integer("review_count").notNull().default(0),
   createdAt: timestamp("created_at", { withTimezone: true }).notNull().defaultNow(),
