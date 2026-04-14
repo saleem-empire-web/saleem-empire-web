@@ -28,6 +28,7 @@ pnpm workspace monorepo using TypeScript. Each package manages its own dependenc
 - Client-side shopping cart with localStorage persistence
 - Categories: Glass Pipes, Vaporizers, Rolling Papers, Accessories, Hookahs
 - Dark moody theme with amber/gold accents (Playfair Display + Inter fonts)
+- AI-generated product/category images served from `artifacts/smoke-shop/public/images/` (20 total: 5 category + 15 product images)
 
 ### Architecture
 - **Frontend**: React + Vite at `/` (artifacts/smoke-shop)
